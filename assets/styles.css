@@ -1,0 +1,113 @@
+.contact {
+    font-size: 16px;
+}
+
+.contact a {
+    color: lightblue;
+}
+
+#homeBody {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/background1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #343a40 !important;
+}
+
+#portBody {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/background2.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #343a40 !important;
+}
+
+#conBody {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/background3.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #343a40 !important;
+}
+.d-block{
+    height: 400px;
+    width: auto;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.myform{
+    z-index: 100;
+    display: block;
+    margin-right: auto;
+}
+
+#searchButton {
+    background-color: #343a40 !important;
+}
+
+
+
+
+#darken{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
+}
+
+#search-button{
+    border-radius: 5px;
+}
+
+.work {
+    position: relative;
+    float: left;
+    width: 259px;
+    margin: 20px 20px 25px;
+    overflow: auto;
+  }
+  
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.9;
+  }
+  
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #282826;
+    border-bottom: 0;
+  }
+.profileImages{
+    height: 400px;
+}
+@media screen and (max-width: 768px) {
+    .profilePhoto {
+        width: 130px;
+    }
+}
+
+@media screen and (max-width: 481px) {
+    .profilePhoto {
+        width: 100px;
+    }
+}
